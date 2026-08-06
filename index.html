@@ -11,15 +11,31 @@
 
 <body>
 
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="#">Jean-Jacques</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#">Accueil</a></li>
+                <li class="nav-item"><a class="nav-link" href="#apropos">À propos</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projets">Projets</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
 <div class="container py-5">
 
-    <div class="text-center">
+    <section class="text-center mb-5">
+        <h1 class="display-4 fw-bold">Jean-Jacques</h1>
 
-        <h1 class="display-4 fw-bold">
-            Jean-Jacques
-        </h1>
-
-        <h2 class="h4 text-secondary">
+        <h2 class="text-secondary">
             Administrateur Systèmes & Réseaux
         </h2>
 
@@ -27,20 +43,43 @@
             Bienvenue sur mon portfolio professionnel.
         </p>
 
-        <p>
-            Ce site présentera progressivement mes compétences, mes projets
-            et mes certifications.
-        </p>
-
-        <a href="#" class="btn btn-primary me-2">
+        <a href="#projets" class="btn btn-primary me-2">
             Mes projets
         </a>
 
-        <a href="#" class="btn btn-outline-secondary">
+        <a href="#contact" class="btn btn-outline-secondary">
             Contact
         </a>
+    </section>
 
-    </div>
+    <section id="apropos" class="mb-5">
+        <h2>À propos</h2>
+        <p>
+            Actuellement en recherche d'un poste d'Administrateur Systèmes et Réseaux,
+            je présente ici mes compétences, mes projets et mes certifications.
+        </p>
+    </section>
+
+    <section id="projets" class="mb-5">
+        <h2>Projets</h2>
+
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Portfolio GitHub Pages</h5>
+                <p class="card-text">
+                    Création de ce portfolio avec HTML5, CSS3, Bootstrap et GitHub Pages.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+
+        <p>
+            Cette section accueillera prochainement les moyens de me contacter.
+        </p>
+    </section>
 
 </div>
 
