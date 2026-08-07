@@ -294,13 +294,34 @@
 
 
     
-    <section id="contact">
-        <h2>Contact</h2>
+   <section id="contact">
+    <h2>Contact</h2>
 
-        <p>
-            Cette section accueillera prochainement les moyens de me contacter.
-        </p>
-    </section>
+    <p>
+        Vous pouvez me contacter directement via le formulaire ci-dessous.
+    </p>
+
+    <form action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="deb71d30-b1c9-431b-abc2-14063c4bce34">
+
+        <div class="mb-3">
+            <label class="form-label">Nom</label>
+            <input type="text" name="name" class="form-control" required>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Email</label>
+            <input type="email" name="email" class="form-control" required>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Message</label>
+            <textarea name="message" class="form-control" rows="5" required></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Envoyer</button>
+    </form>
+</section>
 
 </div>
 
