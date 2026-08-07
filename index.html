@@ -206,13 +206,37 @@
     </section>
 
     <section id="projets" class="mb-5">
-        <h2>Projets</h2>
+        <h2 class="mb-4">Projets</h2>
 
-        <p>
-            Cette section présentera prochainement les principaux projets
-            réalisés autour de Windows Server, Linux, Active Directory,
-            PowerShell, Azure, Docker et d'autres technologies.
+        <p class="mb-4">
+            Cette section présentera prochainement les principaux projets réalisés autour de Windows Server, Linux, Active Directory, PowerShell, Azure, Docker et d'autres technologies.
         </p>
+
+        <div class="row g-4">
+            <!-- Projet 1 -->
+            <div class="col-md-6">
+                <div class="card h-100 shadow-sm border-secondary-subtle">
+                    <div class="card-body">
+                        <h5 class="card-title text-primary">🔐 Déploiement d'un tunnel VPN WireGuard multi-environnements</h5>
+                        <p class="card-text"><strong>Contexte :</strong> Mise en place d'accès VPN sécurisés et distants entre plusieurs environnements du plateau technique de formation (serveur dédié, nœud Proxmox, serveur Hyper-V, serveur OpenVPN et WireGuard), incluant la gestion des clés SSH et la résolution d'incidents d'accès.</p>
+                        <p class="card-text"><strong>Technologies :</strong> WireGuard, OpenVPN, SSH, Proxmox</p>
+                        <p class="card-text mb-0"><strong>Ce que j'en retiens :</strong> configuration de peers VPN et utilisation d'OpenVPN pour délimiter clairement les droits d'accès selon les profils (stagiaires/formateurs), avec une VM Proxmox dédiée à chaque VPN (OpenVPN et WireGuard). Rechargement à chaud des configurations WireGuard (wg syncconf, fichier wg0.conf) sans interrompre les tunnels actifs, contrôle des connexions actives, et résolution d'un lock-out via la console noVNC de Proxmox.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projet 2 -->
+            <div class="col-md-6">
+                <div class="card h-100 shadow-sm border-secondary-subtle">
+                    <div class="card-body">
+                        <h5 class="card-title text-primary">🖥️ Déploiement Windows Server 2019 Core avec rôle Hyper-V (type 1)</h5>
+                        <p class="card-text"><strong>Contexte :</strong> Installation et administration d'un serveur Windows Server 2019 en édition Core, virtualisé sous Hyper-V (Generation 2, mémoire dynamique) — 2019 étant la dernière version disposant d'un hyperviseur de type 1 dédié (Hyper-V Server).</p>
+                        <p class="card-text"><strong>Technologies :</strong> Hyper-V, Windows Server 2019 Core, Windows Admin Center (WAC)</p>
+                        <p class="card-text mb-0"><strong>Ce que j'en retiens :</strong> administration en ligne de commande dans un environnement Windows minimaliste et plus léger (sans interface graphique), avec restauration d'accès au pare-feu et à WAC après blocage.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
     <section id="contact">
