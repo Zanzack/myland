@@ -87,7 +87,7 @@
                 <div class="card h-100 shadow-sm border-secondary-subtle">
                     <div class="card-body">
                         <h5 class="card-title text-primary">🖥️ Systèmes</h5>
-                        <p class="card-text mb-0">Linux (Debian/Ubuntu) dont OpenSSH, Apache/Nginx, Samba AD, Samba (gestion de fichiers), Bind9, dhcp-server, iptables, Cron, Nagios</p>
+                        <p class="card-text mb-0">Linux (Debian/Ubuntu) dont OpenSSH, Apache/Nginx, Samba AD, Samba (gestion de fichiers), Bind9, dhcp-server, Cron, Nagios, Nextcloud</p>
                     </div>
                 </div>
             </div>
@@ -99,8 +99,7 @@
                         <h5 class="card-title text-primary">🌐 Réseau</h5>
                         <p class="card-text mb-0">
                             Modèle OSI, TCP/IP<br>
-                            DNS, DHCP, ARP<br>
-                            VLAN, SSL/TLS, VPN<br>
+                            DNS, DHCP, ARP, SSL/TLS<br>
                             OSPF, RIPv2, EIGRP, (formation TSSR/AIS)
                         </p>
                     </div>
@@ -176,7 +175,6 @@
                             <li>Pare-feu (Windows Defender, iptables)</li>
                             <li>VPN (WireGuard, OpenVPN)</li>
                             <li>Durcissement des systèmes Windows/Linux</li>
-                            <li>Sauvegarde & PRA</li>
                             <li>Segmentation réseau (VLAN)</li>
                         </ul>
                     </div>
@@ -203,7 +201,7 @@
                         <h5 class="card-title text-primary">📊 Supervision & Stockage</h5>
                         <ul class="list-unstyled mb-0">
                             <li>Zabbix</li>
-                            <li>Synology DSM, Sauvegardes & Restauration</li>
+                            <li>Synology DSM, Sauvegardes & Restauration, PRA/PCA (principalement en laboratoire)</li>
                         </ul>
                     </div>
                 </div>
@@ -268,60 +266,61 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
 
-  <!-- Projet 3 -->
+            <!-- Projet 3 -->
             <div class="col-md-6">
                 <div class="card h-100 shadow-sm border-secondary-subtle">
                     <div class="card-body">
-                        <h5 class="card-title text-primary">🖥️ A regarder </h5>
-                        <p class="card-text mb-0"> Azure : Key Vault, Microsoft Sentinel, import Entra ID, RBAC/IAM.</p>
-                        <p class="card-text mb-0"> Analyse de malware (VirusTotal/ANY.RUN).</p>
-                        <p class="card-text mb-0"> PRA/PCA (test de restauration), audit de sécurité formalisé (Lynis).</p>
-                        <p class="card-text mb-0"> xxx.</p>
+                        <h5 class="card-title text-primary">🦠 Analyse du malware Emotet</h5>
+                        <p class="card-text"><strong>Contexte :</strong> Analyse d'un échantillon du malware Emotet dans le cadre d'un exercice de formation, afin d'en comprendre le comportement et les mécanismes de propagation.</p>
+                        <p class="card-text"><strong>Technologies :</strong> VirusTotal, ANY.RUN</p>
+                        <p class="card-text mb-0"><strong>Ce que j'en retiens :</strong> identification des indicateurs de compromission via VirusTotal et observation du comportement dynamique de l'échantillon en bac à sable (sandbox) avec ANY.RUN — une première approche concrète de l'analyse de menaces.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- To Do : pense-bête temporaire, idées de fiches à venir -->
+            <div class="col-md-6">
+                <div class="card h-100 shadow-sm border-secondary-subtle">
+                    <div class="card-body">
+                        <h5 class="card-title text-primary">📝 To Do</h5>
+                        <p class="card-text mb-0">Azure : Key Vault, Microsoft Sentinel, import Entra ID, RBAC/IAM.</p>
+                        <p class="card-text mb-0">PRA/PCA (test de restauration), audit de sécurité formalisé (Lynis).</p>
+                        <p class="card-text mb-0">Gestion de projet.</p>
                     </div>
                 </div>
             </div>
         </div>
+    </section>
 
+    <section id="contact">
+        <h2>Contact</h2>
 
+        <p>
+            Vous pouvez me contacter directement via le formulaire ci-dessous.
+        </p>
 
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="deb71d30-b1c9-431b-abc2-14063c4bce34">
 
+            <div class="mb-3">
+                <label class="form-label">Nom</label>
+                <input type="text" name="name" class="form-control" required>
+            </div>
 
+            <div class="mb-3">
+                <label class="form-label">Email</label>
+                <input type="email" name="email" class="form-control" required>
+            </div>
 
+            <div class="mb-3">
+                <label class="form-label">Message</label>
+                <textarea name="message" class="form-control" rows="5" required></textarea>
+            </div>
 
-
-
-    
-   <section id="contact">
-    <h2>Contact</h2>
-
-    <p>
-        Vous pouvez me contacter directement via le formulaire ci-dessous.
-    </p>
-
-    <form action="https://api.web3forms.com/submit" method="POST">
-        <input type="hidden" name="access_key" value="deb71d30-b1c9-431b-abc2-14063c4bce34">
-
-        <div class="mb-3">
-            <label class="form-label">Nom</label>
-            <input type="text" name="name" class="form-control" required>
-        </div>
-
-        <div class="mb-3">
-            <label class="form-label">Email</label>
-            <input type="email" name="email" class="form-control" required>
-        </div>
-
-        <div class="mb-3">
-            <label class="form-label">Message</label>
-            <textarea name="message" class="form-control" rows="5" required></textarea>
-        </div>
-
-        <button type="submit" class="btn btn-primary">Envoyer</button>
-    </form>
-</section>
+            <button type="submit" class="btn btn-primary">Envoyer</button>
+        </form>
+    </section>
 
 </div>
 
