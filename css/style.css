@@ -10,3 +10,8 @@
     align-items: center;
     justify-content: center;
 }
+
+/* Corrige le décalage causé par la navbar sticky lors du clic sur les ancres */
+section[id] {
+    scroll-margin-top: 80px;
+}
