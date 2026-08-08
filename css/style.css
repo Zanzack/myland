@@ -1,1 +1,12 @@
+/* Alignement vertical des liens du menu */
+.navbar-nav .nav-link {
+    display: flex;
+    align-items: center;
+}
 
+/* Alignement vertical des boutons (Mes projets / Contact) */
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
