@@ -263,7 +263,7 @@
                     <div class="card-body">
                         <h5 class="card-title text-primary">🖥️ Déploiement Windows Server 2019 Core avec rôle Hyper-V (type 1)</h5>
                         <p class="card-text"><strong>Contexte :</strong> Installation et administration d'un serveur Windows Server 2019 en édition Core, virtualisé sous Hyper-V (Generation 2, mémoire dynamique) — 2019 étant la dernière version disposant d'un hyperviseur de type 1 dédié (Hyper-V Server).</p>
-                        <p class="card-text"><strong>Technologies :</strong> Hyper-V, Windows Server 2019 Core, Windows Admin Center (WAC)</p>
+                        <p class="card-text"><strong>Technologies :</strong> Windows Server 2019 Core, Hyper-V, Windows Admin Center (WAC)</p>
                         <p class="card-text mb-0"><strong>Ce que j'en retiens :</strong> administration en ligne de commande dans un environnement Windows minimaliste et plus léger (sans interface graphique), avec restauration d'accès au pare-feu et à WAC après blocage.</p>
                     </div>
                 </div>
@@ -311,7 +311,7 @@
                     <div class="card-body">
                         <h5 class="card-title text-primary">🔑 Étude de solutions IAM (Identity & Access Management)</h5>
                         <p class="card-text"><strong>Contexte :</strong> Dans le cadre de mon mémoire AIS, j'ai étudié plusieurs solutions IAM répondant à un cahier des charges, notamment pour faciliter la gestion du cycle de vie des identités. Cette recherche m'a orienté vers des solutions open-source, que j'ai testées individuellement.</p>
-                        <p class="card-text"><strong>Technologies :</strong> FusionDirectory, Keycloak, LemonLDAP::NG, Apache Syncope</p>
+                        <p class="card-text"><strong>Technologies :</strong> Debian, FusionDirectory, Keycloak, LemonLDAP::NG, Apache Syncope</p>
                         <p class="card-text mb-0"><strong>Ce que j'en retiens :</strong></p>
                         <ul class="mb-0">
                             <li><strong>FusionDirectory</strong> (VM Debian) : solution dédiée au monde de l'éducation ; installation de 389DS pour permettre la jonction avec l'Active Directory ; PHP.</li>
@@ -353,8 +353,44 @@
                     <div class="card-body">
                         <h5 class="card-title text-primary">🔍 Audit de sécurité avec Lynis</h5>
                         <p class="card-text"><strong>Contexte :</strong> Dans le cadre de la formation AIS, audit de sécurité d'un serveur Debian avec l'outil Lynis.</p>
-                        <p class="card-text"><strong>Technologies :</strong> Lynis, Debian</p>
+                        <p class="card-text"><strong>Technologies :</strong> Debian, Lynis</p>
                         <p class="card-text mb-0"><strong>Ce que j'en retiens :</strong> identification des recommandations de durcissement proposées par l'outil, priorisation des actions correctives selon leur criticité, et application d'une partie des recommandations.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projet 10 -->
+            <div class="col-md-6">
+                <div class="card h-100 shadow-sm border-secondary-subtle">
+                    <div class="card-body">
+                        <h5 class="card-title text-primary">☁️ Déploiement et configuration de Nextcloud</h5>
+                        <p class="card-text"><strong>Contexte :</strong> Dans le cadre de la formation TSSR, déploiement d'une solution de stockage et de partage de fichiers Nextcloud sur serveur Linux.</p>
+                        <p class="card-text"><strong>Technologies :</strong> Linux (Debian/Ubuntu), Nextcloud, Apache/Nginx</p>
+                        <p class="card-text mb-0"><strong>Ce que j'en retiens :</strong> installation et configuration de l'instance, gestion des utilisateurs et des espaces de partage.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projet 11 -->
+            <div class="col-md-6">
+                <div class="card h-100 shadow-sm border-secondary-subtle">
+                    <div class="card-body">
+                        <h5 class="card-title text-primary">📊 Supervision d'infrastructure avec Zabbix</h5>
+                        <p class="card-text"><strong>Contexte :</strong> Dans le cadre de la formation AIS, mise en place de la supervision d'infrastructure avec Zabbix sur les VM de mon laboratoire.</p>
+                        <p class="card-text"><strong>Technologies :</strong> Debian, Zabbix</p>
+                        <p class="card-text mb-0"><strong>Ce que j'en retiens :</strong> configuration d'agents de supervision, création d'alertes et de tableaux de bord pour suivre la disponibilité et les performances des services.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projet 12 -->
+            <div class="col-md-6">
+                <div class="card h-100 shadow-sm border-secondary-subtle">
+                    <div class="card-body">
+                        <h5 class="card-title text-primary">🗄️ Mise en service d'un NAS Synology (usage personnel & professionnel)</h5>
+                        <p class="card-text"><strong>Contexte :</strong> Mise en service d'un NAS Synology (DSM), utilisé à la fois dans un cadre personnel et professionnel/laboratoire.</p>
+                        <p class="card-text"><strong>Technologies :</strong> Synology DSM, Active Backup for Business (+ Agent), Synology Drive, Photos, Download Station, File Station</p>
+                        <p class="card-text mb-0"><strong>Ce que j'en retiens :</strong> sécurisation de l'accès (authentification MFA, certificat, accès par URL dédiée via DNS).<br>Gestion différenciée selon l'usage — avec liaison Active Directory en contexte professionnel, sans liaison en usage personnel — et sauvegarde de la configuration du NAS lui-même.</p>
                     </div>
                 </div>
             </div>
