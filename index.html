@@ -72,7 +72,8 @@
     <section id="competences" class="mb-5">
         <h2 class="mb-3">Compétences</h2>
 
-        <div class="row g-4">
+        <h5 class="text-secondary mb-3">Systèmes, Réseau & Infrastructure</h5>
+        <div class="row g-4 mb-4">
             <!-- Systèmes Windows -->
             <div class="col-md-6 col-lg-4">
                 <div class="card h-100 shadow-sm border-secondary-subtle">
@@ -107,6 +108,50 @@
                 </div>
             </div>
 
+            <!-- Virtualisation & Conteneurs -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 shadow-sm border-secondary-subtle">
+                    <div class="card-body">
+                        <h5 class="card-title text-primary">📦 Virtualisation & Conteneurs</h5>
+                        <ul class="list-unstyled mb-0">
+                            <li>Hyper-V</li>
+                            <li>VMware ESXi</li>
+                            <li>Proxmox VE</li>
+                            <li>Docker (formation AIS ; déploiements pratiques en laboratoire personnel sur NAS Synology : VPN mesh, DNS, supervision, outils réseau)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cloud -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 shadow-sm border-secondary-subtle">
+                    <div class="card-body">
+                        <h5 class="card-title text-primary">☁️ Cloud</h5>
+                        <ul class="list-unstyled mb-0">
+                            <li>Microsoft Azure</li>
+                            <li>AWS (formation AIS, étude en laboratoire)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Supervision & Stockage -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 shadow-sm border-secondary-subtle">
+                    <div class="card-body">
+                        <h5 class="card-title text-primary">📊 Supervision & Stockage</h5>
+                        <ul class="list-unstyled mb-0">
+                            <li>Zabbix, Prometheus/Grafana, Centreon</li>
+                            <li>Synology DSM, Sauvegardes & Restauration, PCA (formation AIS, étude en laboratoire)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h5 class="text-secondary mb-3">Sécurité, Identité & Outils</h5>
+        <div class="row g-4">
             <!-- IAM -->
             <div class="col-md-6 col-lg-4">
                 <div class="card h-100 shadow-sm border-secondary-subtle">
@@ -136,21 +181,6 @@
                 </div>
             </div>
 
-            <!-- Virtualisation & Conteneurs -->
-            <div class="col-md-6 col-lg-4">
-                <div class="card h-100 shadow-sm border-secondary-subtle">
-                    <div class="card-body">
-                        <h5 class="card-title text-primary">📦 Virtualisation & Conteneurs</h5>
-                        <ul class="list-unstyled mb-0">
-                            <li>Hyper-V</li>
-                            <li>VMware ESXi</li>
-                            <li>Proxmox VE</li>
-                            <li>Docker (formation AIS, étude en laboratoire)</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
             <!-- Sécurisation - Protocoles & mécanismes -->
             <div class="col-md-6 col-lg-4">
                 <div class="card h-100 shadow-sm border-secondary-subtle">
@@ -174,36 +204,10 @@
                         <h5 class="card-title text-primary">🛡️ Sécurisation — Pratiques & outils</h5>
                         <ul class="list-unstyled mb-0">
                             <li>Pare-feu (Windows Defender, iptables)</li>
-                            <li>VPN (WireGuard, OpenVPN)</li>
+                            <li>VPN (WireGuard, OpenVPN, NetBird)</li>
                             <li>Durcissement des systèmes Windows/Linux</li>
                             <li>Segmentation réseau (VLAN)</li>
                             <li>Sensibilisation à la protection des données personnelles</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Cloud -->
-            <div class="col-md-6 col-lg-4">
-                <div class="card h-100 shadow-sm border-secondary-subtle">
-                    <div class="card-body">
-                        <h5 class="card-title text-primary">☁️ Cloud</h5>
-                        <ul class="list-unstyled mb-0">
-                            <li>Microsoft Azure</li>
-                            <li>AWS (formation AIS, étude en laboratoire)</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Supervision & Stockage -->
-            <div class="col-md-6 col-lg-4">
-                <div class="card h-100 shadow-sm border-secondary-subtle">
-                    <div class="card-body">
-                        <h5 class="card-title text-primary">📊 Supervision & Stockage</h5>
-                        <ul class="list-unstyled mb-0">
-                            <li>Zabbix</li>
-                            <li>Synology DSM, Sauvegardes & Restauration, PCA (formation AIS, étude en laboratoire)</li>
                         </ul>
                     </div>
                 </div>
@@ -414,10 +418,10 @@
             <div class="col-md-6">
                 <div class="card h-100 shadow-sm border-secondary-subtle">
                     <div class="card-body">
-                        <h5 class="card-title text-primary">📊 Supervision d'infrastructure avec Zabbix</h5>
-                        <p class="card-text"><strong>Contexte :</strong> Dans le cadre de la formation AIS, mise en place de la supervision d'infrastructure avec Zabbix sur les VM de mon laboratoire.</p>
-                        <p class="card-text"><strong>Technologies :</strong> Linux (Debian), Zabbix</p>
-                        <p class="card-text mb-0"><strong>Ce que j'en retiens :</strong> configuration d'agents de supervision, création d'alertes et de tableaux de bord pour suivre la disponibilité et les performances des services.</p>
+                        <h5 class="card-title text-primary">📊 Supervision d'infrastructure — Zabbix, Prometheus/Grafana & Centreon</h5>
+                        <p class="card-text"><strong>Contexte :</strong> Mise en place de plusieurs solutions de supervision en laboratoire personnel (NAS Synology, Docker), afin de comparer les approches et superviser à la fois le NAS et un poste Windows.</p>
+                        <p class="card-text"><strong>Technologies :</strong> Zabbix, Prometheus, Grafana, Centreon, SNMP, <strong>Docker</strong></p>
+                        <p class="card-text mb-0"><strong>Ce que j'en retiens :</strong> configuration d'agents et d'exporters (node_exporter, windows_exporter), construction de dashboards Grafana, et mise en place d'une supervision SNMP complète sous Centreon (hôtes NAS et Windows, checks CPU/RAM/stockage/réseau personnalisés) incluant la création de commandes et la résolution d'incidents liés aux permissions et au rechargement du moteur de supervision.</p>
                     </div>
                 </div>
             </div>
@@ -430,6 +434,45 @@
                         <p class="card-text"><strong>Contexte :</strong> Mise en service d'un NAS Synology (DSM), utilisé à la fois dans un cadre personnel et professionnel.</p>
                         <p class="card-text"><strong>Technologies :</strong> Synology DSM, Active Backup for Business (+ Agent), Synology Drive, Photos, Download Station, File Station</p>
                         <p class="card-text mb-0"><strong>Ce que j'en retiens :</strong> sécurisation de l'accès (MFA, certificat, URL dédiée via DNS).<br>Gestion différenciée selon l'usage — avec liaison Active Directory en contexte professionnel, sans liaison en usage personnel — et sauvegarde de la configuration du NAS lui-même.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projet 13 -->
+            <div class="col-md-6">
+                <div class="card h-100 shadow-sm border-secondary-subtle">
+                    <div class="card-body">
+                        <h5 class="card-title text-primary">🌐 Réseau overlay auto-hébergé — NetBird & Technitium DNS</h5>
+                        <p class="card-text"><strong>Contexte :</strong> Déploiement d'une infrastructure VPN mesh auto-hébergée (NetBird : Management, Signal, Relay, Dashboard) sur NAS Synology via Docker, avec certificat Let's Encrypt (challenge DNS-01 via API OVH) derrière un reverse proxy Traefik, couplée à un serveur DNS local (Technitium) pour la résolution interne et un filtrage réseau maîtrisé (listes de blocage publicitaires, restrictions choisies selon les besoins).</p>
+                        <p class="card-text"><strong>Technologies :</strong> NetBird, <strong>Docker</strong>, Traefik, Let's Encrypt (DNS-01/OVH), Technitium DNS Server</p>
+                        <p class="card-text mb-0"><strong>Ce que j'en retiens :</strong> mise en place d'un reverse proxy avec certificat automatisé, gestion de plusieurs peers (NAS, PC, mobile) avec accès distant sans ouverture de ports classique, et dépannage de bout en bout suite à un incident matériel (résolution DNS, connectivité réseau overlay, relance des conteneurs après redémarrage).</p>
+                        <p class="card-text mb-0"><em class="text-muted small">Développé avec l'appui d'un outil IA.</em></p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projet 14 -->
+            <div class="col-md-6">
+                <div class="card h-100 shadow-sm border-secondary-subtle">
+                    <div class="card-body">
+                        <h5 class="card-title text-primary">🕵️ OSINT — Recherche de comptes par pseudonyme avec Maigret</h5>
+                        <p class="card-text"><strong>Contexte :</strong> Déploiement de l'outil OSINT Maigret (recherche de comptes en ligne à partir d'un pseudonyme) via Docker sur NAS Synology, à des fins de découverte de l'outil.</p>
+                        <p class="card-text"><strong>Technologies :</strong> Maigret, <strong>Docker</strong></p>
+                        <p class="card-text mb-0"><strong>Ce que j'en retiens :</strong> mise en place d'une configuration persistante (volume dédié) et prise en main de l'interface web pour l'analyse de présence en ligne à partir d'un identifiant.</p>
+                        <p class="card-text mb-0"><em class="text-muted small">Développé avec l'appui d'un outil IA.</em></p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projet 15 -->
+            <div class="col-md-6">
+                <div class="card h-100 shadow-sm border-secondary-subtle">
+                    <div class="card-body">
+                        <h5 class="card-title text-primary">🖱️ Serveur RustDesk auto-hébergé (hbbs/hbbr)</h5>
+                        <p class="card-text"><strong>Contexte :</strong> Suite à la perte de connexion via le serveur RustDesk public après plusieurs mois d'usage, déploiement d'un serveur RustDesk auto-hébergé (hbbs/hbbr) via Docker sur NAS Synology, avec DDNS et redirection de ports dédiée sur la box internet.</p>
+                        <p class="card-text"><strong>Technologies :</strong> RustDesk, <strong>Docker</strong>, DDNS, redirection de ports</p>
+                        <p class="card-text mb-0"><strong>Ce que j'en retiens :</strong> mise en place de la redirection de ports (TCP/UDP) vers le NAS, et diagnostic/résolution d'un incident de démarrage du conteneur suite à un arrêt brutal du NAS (résidu de configuration réseau Docker).</p>
+                        <p class="card-text mb-0"><em class="text-muted small">Développé avec l'appui d'un outil IA.</em></p>
                     </div>
                 </div>
             </div>
