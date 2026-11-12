@@ -1,528 +1,8 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jean-Jacques | Portfolio</title>
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-</head>
-
-<body>
-
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-    <div class="container">
-        <a class="navbar-brand" href="#">Jean-Jacques</a>
-
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="menu">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link" href="#">Accueil</a></li>
-                <li class="nav-item"><a class="nav-link" href="#apropos">À propos</a></li>
-                <li class="nav-item"><a class="nav-link" href="#competences">Compétences</a></li>
-                <li class="nav-item"><a class="nav-link" href="#projets">Projets</a></li>
-                <li class="nav-item"><a class="nav-link" href="#certifications">Certificats</a></li>
-                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-            </ul>
-        </div>
-    </div>
-</nav>
-
-<div class="container py-5">
-
-    <section class="text-center mb-5">
-        <h1 class="display-4 fw-bold">Jean-Jacques</h1>
-
-        <h2 class="text-secondary">
-            Administrateur Systèmes & Réseaux
-        </h2>
-
-        <p class="lead mt-4">
-            Bienvenue sur mon portfolio professionnel.
-        </p>
-
-        <p>
-            Ce site présente mes compétences, mes projets,
-            mes certificats et mon parcours.
-        </p>
-
-        <a href="#projets" class="btn btn-primary me-2">
-            Mes projets
-        </a>
-
-        <a href="#contact" class="btn btn-outline-secondary">
-            Contact
-        </a>
-    </section>
-
-    <section id="apropos" class="mb-5">
-        <h2 class="mb-1">À propos</h2>
-
-        <p>
-            Passionné par l'informatique, je me suis reconverti après plusieurs années comme contrôleur de gestion : j'ai amorcé ce nouveau parcours avec la formation TSSR (Technicien Supérieur Systèmes & Réseaux, niveau 5), avant d'enchaîner avec l'AIS (Administrateur d'Infrastructures Sécurisées, niveau 6).<br>
-            J'ai mis ces compétences en pratique en RUN (exploitation quotidienne, maintien en condition opérationnelle) et BUILD (projets d'évolution et de sécurisation de l'infrastructure), notamment au sein d'un environnement médical exigeant.<br>
-            Je continue aujourd'hui de progresser via des projets personnels, des laboratoires techniques et des formations.
-        </p>
-    </section>
-
-    <section id="competences" class="mb-5">
-        <h2 class="mb-3">Compétences</h2>
-
-        <h5 class="text-secondary mb-3">Systèmes, Réseau & Infrastructure</h5>
-        <div class="row g-4 mb-4">
-            <!-- Systèmes Windows -->
-            <div class="col-md-6 col-lg-4">
-                <div class="card h-100 shadow-sm border-secondary-subtle">
-                    <div class="card-body">
-                        <h5 class="card-title text-primary">🖥️ Systèmes</h5>
-                        <p class="card-text mb-0">Windows Server dont Active Directory, GPO, AGDLP, DFS, DNS, DHCP, WSUS</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Systèmes Linux -->
-            <div class="col-md-6 col-lg-4">
-                <div class="card h-100 shadow-sm border-secondary-subtle">
-                    <div class="card-body">
-                        <h5 class="card-title text-primary">🖥️ Systèmes</h5>
-                        <p class="card-text mb-0">Linux (Debian) dont OpenSSH, Apache/Nginx, Samba AD, Samba (gestion de fichiers), Bind9, dhcp-server, Cron, Nagios, Nextcloud</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Réseaux -->
-            <div class="col-md-6 col-lg-4">
-                <div class="card h-100 shadow-sm border-secondary-subtle">
-                    <div class="card-body">
-                        <h5 class="card-title text-primary">🌐 Réseau</h5>
-                        <p class="card-text mb-0">
-                            Modèle OSI, TCP/IP<br>
-                            DNS, DHCP, ARP, SSL/TLS<br>
-                            OSPF, RIPv2, EIGRP, (formation TSSR/AIS)
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Virtualisation & Conteneurs -->
-            <div class="col-md-6 col-lg-4">
-                <div class="card h-100 shadow-sm border-secondary-subtle">
-                    <div class="card-body">
-                        <h5 class="card-title text-primary">📦 Virtualisation & Conteneurs</h5>
-                        <ul class="list-unstyled mb-0">
-                            <li>Hyper-V</li>
-                            <li>VMware ESXi</li>
-                            <li>Proxmox VE</li>
-                            <li>Docker (formation AIS ; déploiements pratiques en laboratoire personnel sur NAS Synology : VPN mesh, DNS, supervision, outils réseau)</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Cloud -->
-            <div class="col-md-6 col-lg-4">
-                <div class="card h-100 shadow-sm border-secondary-subtle">
-                    <div class="card-body">
-                        <h5 class="card-title text-primary">☁️ Cloud</h5>
-                        <ul class="list-unstyled mb-0">
-                            <li>Microsoft Azure</li>
-                            <li>AWS (formation AIS, étude en laboratoire)</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Supervision & Stockage -->
-            <div class="col-md-6 col-lg-4">
-                <div class="card h-100 shadow-sm border-secondary-subtle">
-                    <div class="card-body">
-                        <h5 class="card-title text-primary">📊 Supervision & Stockage</h5>
-                        <ul class="list-unstyled mb-0">
-                            <li>Zabbix, Prometheus/Grafana, Centreon</li>
-                            <li>Synology DSM, Sauvegardes & Restauration, PCA (formation AIS, étude en laboratoire)</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <h5 class="text-secondary mb-3">Sécurité, Identité & Outils</h5>
-        <div class="row g-4">
-            <!-- IAM -->
-            <div class="col-md-6 col-lg-4">
-                <div class="card h-100 shadow-sm border-secondary-subtle">
-                    <div class="card-body">
-                        <h5 class="card-title text-primary">🔐 Gestion des Identités (IAM)</h5>
-                        <p class="card-text mb-0">
-                            POC réalisé pour mon mémoire AIS :<br>
-                            Apache Syncope<br>
-                            Keycloak<br>
-                            LemonLDAP::NG<br>
-                            FusionDirectory
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Scripting -->
-            <div class="col-md-6 col-lg-4">
-                <div class="card h-100 shadow-sm border-secondary-subtle">
-                    <div class="card-body">
-                        <h5 class="card-title text-primary">⚙️ Scripting</h5>
-                        <ul class="list-unstyled mb-0">
-                            <li>Bash (bases)</li>
-                            <li>PowerShell (notions)</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Sécurisation - Protocoles & mécanismes -->
-            <div class="col-md-6 col-lg-4">
-                <div class="card h-100 shadow-sm border-secondary-subtle">
-                    <div class="card-body">
-                        <h5 class="card-title text-primary">🛡️ Sécurisation — Protocoles & mécanismes</h5>
-                        <ul class="list-unstyled mb-0">
-                            <li>PKI / Certificats SSL/TLS</li>
-                            <li>ACL NTFS & Permissions de partage</li>
-                            <li>Authentification MFA</li>
-                            <li>BitLocker / Chiffrement des données</li>
-                            <li>SSH (clés publiques)</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Sécurisation - Pratiques & outils -->
-            <div class="col-md-6 col-lg-4">
-                <div class="card h-100 shadow-sm border-secondary-subtle">
-                    <div class="card-body">
-                        <h5 class="card-title text-primary">🛡️ Sécurisation — Pratiques & outils</h5>
-                        <ul class="list-unstyled mb-0">
-                            <li>Pare-feu (Windows Defender, iptables)</li>
-                            <li>VPN (WireGuard, OpenVPN, NetBird)</li>
-                            <li>Durcissement des systèmes Windows/Linux</li>
-                            <li>Segmentation réseau (VLAN)</li>
-                            <li>Sensibilisation à la protection des données personnelles</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <!-- ITSM & Téléphonie -->
-            <div class="col-md-6 col-lg-4">
-                <div class="card h-100 shadow-sm border-secondary-subtle">
-                    <div class="card-body">
-                        <h5 class="card-title text-primary">🎫 ITSM & Téléphonie</h5>
-                        <ul class="list-unstyled mb-0">
-                            <li>GLPI, EasyVista</li>
-                            <li>Asterisk (VoIP)</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Langues -->
-            <div class="col-md-6 col-lg-4">
-                <div class="card h-100 shadow-sm border-secondary-subtle">
-                    <div class="card-body">
-                        <h5 class="card-title text-primary">🌍 Langues</h5>
-                        <ul class="list-unstyled mb-0">
-                            <li>Français (Langue maternelle)</li>
-                            <li>Anglais (Niveau B1)</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="projets" class="mb-5">
-        <h2 class="mb-1">Projets</h2>
-
-        <p class="mb-4">
-            Voici une sélection de projets menés en environnement Windows Server, Linux, Active Directory, PowerShell, Azure et Docker, entre autres technologies.
-        </p>
-
-        <div class="row g-4">
-            <!-- WireGuard -->
-            <div class="col-md-6">
-                <div class="card h-100 shadow-sm border-secondary-subtle">
-                    <div class="card-body">
-                        <h5 class="card-title text-primary">🔐 Déploiement d'un tunnel VPN WireGuard multi-environnements</h5>
-                        <p class="card-text"><strong>Contexte :</strong> Mise en place d'accès VPN sécurisés et distants entre plusieurs environnements du plateau technique de formation (serveur dédié, nœud Proxmox, serveur Hyper-V, serveur OpenVPN et WireGuard), incluant la gestion des clés SSH et la résolution d'incidents d'accès.</p>
-                        <p class="card-text"><strong>Technologies :</strong> WireGuard, OpenVPN, SSH, Proxmox</p>
-                        <p class="card-text mb-0"><strong>Ce que j'en retiens :</strong> configuration de peers VPN et utilisation d'OpenVPN pour délimiter clairement les droits d'accès selon les profils (stagiaires/formateurs), avec une VM Proxmox dédiée à chaque VPN (OpenVPN et WireGuard). Rechargement à chaud des configurations WireGuard (wg syncconf, fichier wg0.conf) sans interrompre les tunnels actifs, contrôle des connexions actives, et résolution d'un lock-out via la console noVNC de Proxmox.</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Autoclaves -->
-            <div class="col-md-6">
-                <div class="card h-100 shadow-sm border-secondary-subtle">
-                    <div class="card-body">
-                        <h5 class="card-title text-primary">📋 Déploiement d'un serveur de pilotage d'autoclaves de stérilisation</h5>
-                        <p class="card-text"><strong>Contexte :</strong> Installation d'un serveur dédié au pilotage des autoclaves de stérilisation, générant les rapports de stérilisation des ustensiles du bloc opératoire. Projet mené en coordination avec les équipes DSI du groupe et l'éditeur de la solution.</p>
-                        <p class="card-text"><strong>Technologies :</strong> Windows Server (VM), VLAN, règles de pare-feu, coordination éditeur logiciel et DSI réseau</p>
-                        <p class="card-text mb-0"><strong>Ce que j'en retiens :</strong> participation au choix du VLAN du serveur avec les membres de la DSI, en tenant compte de son incidence sur la facilité des mises à jour ultérieures — tous les VLAN n'ayant pas accès au WAN. Diagnostic collaboratif d'un blocage réseau avec l'éditeur et l'équipe réseau : bien que tous les ports aient été ouverts côté serveur, un port associé à un équipement réseau propre à la nouvelle solution restait fermé — création de la règle nécessaire pour rétablir le flux.</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Win2019Core -->
-            <div class="col-md-6">
-                <div class="card h-100 shadow-sm border-secondary-subtle">
-                    <div class="card-body">
-                        <h5 class="card-title text-primary">🖥️ Déploiement Windows Server 2019 Core avec rôle Hyper-V (type 1)</h5>
-                        <p class="card-text"><strong>Contexte :</strong> Installation et administration d'un serveur Windows Server 2019 en édition Core, virtualisé sous Hyper-V (Generation 2, mémoire dynamique) — 2019 étant la dernière version disposant d'un hyperviseur de type 1 dédié (Hyper-V Server).</p>
-                        <p class="card-text"><strong>Technologies :</strong> Windows Server 2019 Core, Hyper-V, Windows Admin Center (WAC)</p>
-                        <p class="card-text mb-0"><strong>Ce que j'en retiens :</strong> administration en ligne de commande dans un environnement Windows minimaliste et plus léger (sans interface graphique), avec restauration d'accès au pare-feu et à WAC après blocage.</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Traçabilité sang -->
-            <div class="col-md-6">
-                <div class="card h-100 shadow-sm border-secondary-subtle">
-                    <div class="card-body">
-                        <h5 class="card-title text-primary">📋 Mise à niveau du serveur de traçabilité des poches de sang</h5>
-                        <p class="card-text"><strong>Contexte :</strong> Le serveur assurant la traçabilité des poches de sang était devenu obsolète. Projet mené en liaison avec l'éditeur de la solution et la DSI réseau (ouverture des flux).</p>
-                        <p class="card-text"><strong>Technologies :</strong> Windows Server 2025 (VM dédiée), réseau, migration de base de données</p>
-                        <p class="card-text mb-0"><strong>Ce que j'en retiens :</strong> étude conjointe avec l'éditeur de la nature des flux entrants/sortants et des enjeux d'interopérabilité. L'éditeur a pris en charge l'évolution de la base de données ; j'ai construit la VM dédiée et réalisé la bascule des données transmises par l'éditeur.</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- IAM étude -->
-            <div class="col-md-6">
-                <div class="card h-100 shadow-sm border-secondary-subtle">
-                    <div class="card-body">
-                        <h5 class="card-title text-primary">🔑 Étude de solutions IAM (Identity & Access Management)</h5>
-                        <p class="card-text"><strong>Contexte :</strong> Dans le cadre de mon mémoire AIS, j'ai étudié plusieurs solutions IAM répondant à un cahier des charges, notamment pour faciliter la gestion du cycle de vie des identités. Cette recherche m'a orienté vers des solutions open-source, que j'ai testées individuellement.</p>
-                        <p class="card-text"><strong>Technologies :</strong> Linux (Debian), FusionDirectory, Keycloak, LemonLDAP::NG, Apache Syncope</p>
-                        <p class="card-text mb-0"><strong>Ce que j'en retiens :</strong></p>
-                        <ul class="mb-0">
-                            <li><strong>FusionDirectory</strong> (VM Debian) : solution dédiée au monde de l'éducation ; installation de 389DS pour permettre la jonction avec l'Active Directory ; PHP.</li>
-                            <li><strong>Keycloak</strong> (VM Debian) : Java, base de données choisie pour sa compatibilité avec les bases existantes (Oracle).</li>
-                            <li><strong>LemonLDAP::NG</strong> (VM Debian, 389DS, Apache ou Nginx) : solution SSO/IAM open-source reprise par la Gendarmerie nationale, avec un support natif du protocole utilisé par FranceConnect.</li>
-                            <li><strong>Apache Syncope</strong> (VM Debian, <em><a href="https://syncope.apache.org/demo" target="_blank" rel="noopener">démo officielle</a></em>) : Java, base de données Oracle, serveur d'application Apache Tomcat.</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Azure -->
-            <div class="col-md-6">
-                <div class="card h-100 shadow-sm border-secondary-subtle">
-                    <div class="card-body">
-                        <h5 class="card-title text-primary">☁️ Gestion des identités et sécurité sur Microsoft Azure</h5>
-                        <p class="card-text"><strong>Contexte :</strong> Déploiement et administration de ressources sur Microsoft Azure, pratique dans le cadre d'un laboratoire sur la plateforme de labs en ligne Skillable utilisée dans le cadre de mon activité de formateur TSSR, avec un focus sur la gestion des identités, le contrôle d'accès et la sécurité.</p>
-                        <p class="card-text"><strong>Technologies :</strong> Azure Key Vault, Microsoft Sentinel, Entra ID, RBAC/IAM</p>
-                        <p class="card-text mb-0"><strong>Ce que j'en retiens :</strong> import en masse d'utilisateurs dans Entra ID, attribution de rôles via RBAC (Role-Based Access Control) pour appliquer le principe du moindre privilège, stockage sécurisé de secrets avec Key Vault, et prise en main de Microsoft Sentinel pour la supervision de sécurité.</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Emotet -->
-            <div class="col-md-6">
-                <div class="card h-100 shadow-sm border-secondary-subtle">
-                    <div class="card-body">
-                        <h5 class="card-title text-primary">🦠 Analyse du malware Emotet</h5>
-                        <p class="card-text"><strong>Contexte :</strong> Analyse d'un échantillon du malware Emotet dans le cadre d'un exercice de formation, afin d'en comprendre le comportement et les mécanismes de propagation.</p>
-                        <p class="card-text"><strong>Technologies :</strong> VirusTotal, ANY.RUN</p>
-                        <p class="card-text mb-0"><strong>Ce que j'en retiens :</strong> identification des indicateurs de compromission via VirusTotal et observation du comportement dynamique de l'échantillon en bac à sable (sandbox) avec ANY.RUN — une première approche concrète de l'analyse de menaces.</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- AD-1 doublons -->
-            <div class="col-md-6">
-                <div class="card h-100 shadow-sm border-secondary-subtle">
-                    <div class="card-body">
-                        <h5 class="card-title text-primary">🪪 Détection et comptage des doublons Nom/Prénom (AD)</h5>
-                        <p class="card-text"><strong>Contexte :</strong> Recherche des doublons Nom/Prénom au sein d'une OU cible et de ses sous-OU, avec comptage des occurrences.</p>
-                        <p class="card-text"><strong>Technologies :</strong> PowerShell, module ActiveDirectory, export Excel</p>
-                        <p class="card-text"><strong>Ce que j'en retiens :</strong> recherche récursive dans l'arborescence des OU pour fiabiliser les identités, avec export des résultats vers Excel pour exploitation.</p>
-                        <p class="card-text mb-0"><em class="text-muted small">Développé avec l'appui d'un outil IA.</em></p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- AD-2 dernière connexion -->
-            <div class="col-md-6">
-                <div class="card h-100 shadow-sm border-secondary-subtle">
-                    <div class="card-body">
-                        <h5 class="card-title text-primary">🕒 Dernière connexion utilisateur (AD)</h5>
-                        <p class="card-text"><strong>Contexte :</strong> Script PowerShell exécuté depuis un contrôleur de domaine, renvoyant la date de dernière connexion d'un compte utilisateur AD donné.</p>
-                        <p class="card-text"><strong>Technologies :</strong> PowerShell, module ActiveDirectory, export Excel</p>
-                        <p class="card-text"><strong>Ce que j'en retiens :</strong> un rapprochement avec les effectifs RH permet de vérifier la cohérence des accès attribués sur le domaine local.</p>
-                        <p class="card-text mb-0"><em class="text-muted small">Développé avec l'appui d'un outil IA.</em></p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- AD-3 mdp expirés -->
-            <div class="col-md-6">
-                <div class="card h-100 shadow-sm border-secondary-subtle">
-                    <div class="card-body">
-                        <h5 class="card-title text-primary">🔒 Audit des mots de passe expirés (AD)</h5>
-                        <p class="card-text"><strong>Contexte :</strong> Script PowerShell listant les comptes AD dont le mot de passe dépasse 90 jours d'ancienneté.</p>
-                        <p class="card-text"><strong>Technologies :</strong> PowerShell, module ActiveDirectory, export Excel</p>
-                        <p class="card-text"><strong>Ce que j'en retiens :</strong> repère les mots de passe anciens et actifs, pour ajuster la politique de sécurité si besoin.</p>
-                        <p class="card-text mb-0"><em class="text-muted small">Développé avec l'appui d'un outil IA.</em></p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- PRA/PCA (solo, pleine largeur) -->
-            <div class="col-12">
-                <div class="card h-100 shadow-sm border-secondary-subtle">
-                    <div class="card-body">
-                        <h5 class="card-title text-primary">💾 Sauvegarde et restauration (PRA/PCA)</h5>
-                        <p class="card-text"><strong>Contexte :</strong> Dans le cadre de la formation AIS, dont le référentiel prévoit explicitement de contribuer au Plan de Continuité d'Activité (PCA) et au Plan de Reprise d'Activité (PRA), exercice pratique de sauvegarde et de restauration.</p>
-                        <p class="card-text"><strong>Technologies :</strong> Windows Server Backup, jeu de sauvegarde (Jour, Semaine, Mois), sauvegarde immuable</p>
-                        <p class="card-text mb-0"><strong>Ce que j'en retiens :</strong> mise en application des notions de RTO (temps maximal d'interruption acceptable d'un service) et RPO (temps maximal de perte de données acceptable), test de restauration, et mise en place d'une sauvegarde immuable pour se prémunir contre la modification ou la suppression des données sauvegardées.</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Lynis -->
-            <div class="col-md-6">
-                <div class="card h-100 shadow-sm border-secondary-subtle">
-                    <div class="card-body">
-                        <h5 class="card-title text-primary">🔍 Audit de sécurité avec Lynis</h5>
-                        <p class="card-text"><strong>Contexte :</strong> Dans le cadre de la formation AIS, audit de sécurité d'un serveur Debian avec l'outil Lynis.</p>
-                        <p class="card-text"><strong>Technologies :</strong> Linux (Debian), Lynis</p>
-                        <p class="card-text mb-0"><strong>Ce que j'en retiens :</strong> identification des recommandations de durcissement proposées par l'outil, priorisation des actions correctives selon leur criticité, et application d'une partie des recommandations.</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- phpIPAM -->
-            <div class="col-md-6">
-                <div class="card h-100 shadow-sm border-secondary-subtle">
-                    <div class="card-body">
-                        <h5 class="card-title text-primary">🗂️ Déploiement d'un outil IPAM avec phpIPAM</h5>
-                        <p class="card-text"><strong>Contexte :</strong> Déploiement de phpIPAM (gestion d'adresses IP) via Docker sur NAS Synology, en parallèle du déploiement de Nextcloud, afin de centraliser la documentation du plan d'adressage IP du laboratoire personnel.</p>
-                        <p class="card-text"><strong>Technologies :</strong> phpIPAM (images officielles phpipam-www, phpipam-cron), MariaDB, <strong>Docker</strong></p>
-                        <p class="card-text mb-0"><strong>Ce que j'en retiens :</strong> résolution d'un conflit de port avec un autre conteneur, réorganisation de l'arborescence par défaut vers des sections personnalisées (LAN, VPN-Overlay, Virtualisation), et vérification active des sous-réseaux avant leur intégration dans l'outil.</p>
-                        <p class="card-text mb-0"><em class="text-muted small">Développé avec l'appui d'un outil IA.</em></p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- NAS Synology -->
-            <div class="col-md-6">
-                <div class="card h-100 shadow-sm border-secondary-subtle">
-                    <div class="card-body">
-                        <h5 class="card-title text-primary">🗄️ Mise en service d'un NAS Synology (usage personnel & professionnel)</h5>
-                        <p class="card-text"><strong>Contexte :</strong> Mise en service d'un NAS Synology (DSM), utilisé à la fois dans un cadre personnel et professionnel.</p>
-                        <p class="card-text"><strong>Technologies :</strong> Synology DSM, Active Backup for Business (+ Agent), Synology Drive, Photos, Download Station, File Station</p>
-                        <p class="card-text mb-0"><strong>Ce que j'en retiens :</strong> sécurisation de l'accès (MFA, certificat, URL dédiée via DNS).<br>Gestion différenciée selon l'usage — avec liaison Active Directory en contexte professionnel, sans liaison en usage personnel — et sauvegarde de la configuration du NAS lui-même.</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Nextcloud -->
-            <div class="col-md-6">
-                <div class="card h-100 shadow-sm border-secondary-subtle">
-                    <div class="card-body">
-                        <h5 class="card-title text-primary">☁️ Déploiement et configuration de Nextcloud</h5>
-                        <p class="card-text"><strong>Contexte :</strong> Dans le cadre de la formation TSSR, déploiement d'une solution de stockage et de partage de fichiers Nextcloud sur serveur Linux.</p>
-                        <p class="card-text"><strong>Technologies :</strong> Linux (Debian), Nextcloud, Apache/Nginx</p>
-                        <p class="card-text mb-0"><strong>Ce que j'en retiens :</strong> installation et configuration de l'instance, gestion des utilisateurs et des espaces de partage.</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Supervision -->
-            <div class="col-md-6">
-                <div class="card h-100 shadow-sm border-secondary-subtle">
-                    <div class="card-body">
-                        <h5 class="card-title text-primary">📊 Supervision d'infrastructure — Zabbix, Prometheus/Grafana & Centreon</h5>
-                        <p class="card-text"><strong>Contexte :</strong> Mise en place de plusieurs solutions de supervision en laboratoire personnel (NAS Synology, Docker), afin de comparer les approches et superviser à la fois le NAS et un poste Windows.</p>
-                        <p class="card-text"><strong>Technologies :</strong> Zabbix, Prometheus, Grafana, Centreon, SNMP, <strong>Docker</strong></p>
-                        <p class="card-text mb-0"><strong>Ce que j'en retiens :</strong> configuration d'agents et d'exporters (node_exporter, windows_exporter), construction de dashboards Grafana, et mise en place d'une supervision SNMP complète sous Centreon (hôtes NAS et Windows, checks CPU/RAM/stockage/réseau personnalisés) incluant la création de commandes et la résolution d'incidents liés aux permissions et au rechargement du moteur de supervision.</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- NetBird & Technitium -->
-            <div class="col-md-6">
-                <div class="card h-100 shadow-sm border-secondary-subtle">
-                    <div class="card-body">
-                        <h5 class="card-title text-primary">🌐 Réseau overlay auto-hébergé — NetBird & Technitium DNS</h5>
-                        <p class="card-text"><strong>Contexte :</strong> Déploiement d'une infrastructure VPN mesh auto-hébergée (NetBird : Management, Signal, Relay, Dashboard) sur NAS Synology via Docker, avec certificat Let's Encrypt (challenge DNS-01 via API OVH) derrière un reverse proxy Traefik, couplée à un serveur DNS local (Technitium) pour la résolution interne et un filtrage réseau maîtrisé (listes de blocage publicitaires, restrictions choisies selon les besoins).</p>
-                        <p class="card-text"><strong>Technologies :</strong> NetBird, <strong>Docker</strong>, Traefik, Let's Encrypt (DNS-01/OVH), Technitium DNS Server</p>
-                        <p class="card-text mb-0"><strong>Ce que j'en retiens :</strong> mise en place d'un reverse proxy avec certificat automatisé, gestion de plusieurs peers (NAS, PC, mobile) avec accès distant sans ouverture de ports classique, et dépannage de bout en bout suite à un incident matériel (résolution DNS, connectivité réseau overlay, relance des conteneurs après redémarrage).</p>
-                        <p class="card-text mb-0"><em class="text-muted small">Développé avec l'appui d'un outil IA.</em></p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Maigret -->
-            <div class="col-md-6">
-                <div class="card h-100 shadow-sm border-secondary-subtle">
-                    <div class="card-body">
-                        <h5 class="card-title text-primary">🕵️ OSINT — Recherche de comptes par pseudonyme avec Maigret</h5>
-                        <p class="card-text"><strong>Contexte :</strong> Déploiement de l'outil OSINT Maigret (recherche de comptes en ligne à partir d'un pseudonyme) via Docker sur NAS Synology, à des fins de découverte de l'outil.</p>
-                        <p class="card-text"><strong>Technologies :</strong> Maigret, <strong>Docker</strong></p>
-                        <p class="card-text mb-0"><strong>Ce que j'en retiens :</strong> mise en place d'une configuration persistante (volume dédié) et prise en main de l'interface web pour l'analyse de présence en ligne à partir d'un identifiant.</p>
-                        <p class="card-text mb-0"><em class="text-muted small">Développé avec l'appui d'un outil IA.</em></p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- RustDesk -->
-            <div class="col-md-6">
-                <div class="card h-100 shadow-sm border-secondary-subtle">
-                    <div class="card-body">
-                        <h5 class="card-title text-primary">🖱️ Serveur RustDesk auto-hébergé (hbbs/hbbr)</h5>
-                        <p class="card-text"><strong>Contexte :</strong> Suite à la perte de connexion via le serveur RustDesk public après plusieurs mois d'usage, déploiement d'un serveur RustDesk auto-hébergé (hbbs/hbbr) via Docker sur NAS Synology, avec DDNS et redirection de ports dédiée sur la box internet.</p>
-                        <p class="card-text"><strong>Technologies :</strong> RustDesk, <strong>Docker</strong>, DDNS, redirection de ports</p>
-                        <p class="card-text mb-0"><strong>Ce que j'en retiens :</strong> mise en place de la redirection de ports (TCP/UDP) vers le NAS, et diagnostic/résolution d'un incident de démarrage du conteneur suite à un arrêt brutal du NAS (résidu de configuration réseau Docker).</p>
-                        <p class="card-text mb-0"><em class="text-muted small">Développé avec l'appui d'un outil IA.</em></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="certifications" class="mb-5">
+     <section id="certifications" class="mb-5">
         <h2 class="mb-3">Certificats & Titres</h2>
 
         <div class="row g-4">
-            <div class="col-md-6">
-                <div class="card h-100 shadow-sm border-secondary-subtle">
-                    <img src="images/Cisco_EndpointSecurity__Sécurité_des_Terminaux.png" class="card-img-top" alt="Certification Cisco Endpoint Security">
-                    <div class="card-body">
-                        <h5 class="card-title text-primary">🎓 Cisco Networking Academy — Endpoint Security</h5>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-6">
-                <div class="card h-100 shadow-sm border-secondary-subtle">
-                    <img src="images/Cisco_HackerEtique.png" class="card-img-top" alt="Certification Cisco Ethical Hacker">
-                    <div class="card-body">
-                        <h5 class="card-title text-primary">🎓 Cisco Networking Academy — Ethical Hacker</h5>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-6">
-                <div class="card h-100 shadow-sm border-secondary-subtle">
-                    <img src="images/Cisco_Network_Defense.png" class="card-img-top" alt="Certification Cisco Network Defense">
-                    <div class="card-body">
-                        <h5 class="card-title text-primary">🎓 Cisco Networking Academy — Network Defense</h5>
-                    </div>
-                </div>
-            </div>
-
+            <!-- 1 : AIS -->
             <div class="col-md-6">
                 <div class="card h-100 shadow-sm border-secondary-subtle">
                     <img src="images/AIS_.png" class="card-img-top" alt="Titre professionnel AIS">
@@ -536,6 +16,7 @@
                 </div>
             </div>
 
+            <!-- 2 : TSSR -->
             <div class="col-md-6">
                 <div class="card h-100 shadow-sm border-secondary-subtle">
                     <img src="images/TSSR__.png" class="card-img-top" alt="Titre professionnel TSSR">
@@ -548,43 +29,55 @@
                     </div>
                 </div>
             </div>
+
+            <!-- 5 : Linux Essentials -->
+            <div class="col-md-6">
+                <div class="card h-100 shadow-sm border-secondary-subtle">
+                    <img src="images/Cisco_Linux%20Essentials.png" class="card-img-top" alt="Certification Cisco Linux Essentials">
+                    <div class="card-body">
+                        <h5 class="card-title text-primary">🎓 Cisco Networking Academy — Linux Essentials</h5>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 10 : Endpoint Security -->
+            <div class="col-md-6">
+                <div class="card h-100 shadow-sm border-secondary-subtle">
+                    <img src="images/Cisco_EndpointSecurity__Sécurité_des_Terminaux.png" class="card-img-top" alt="Certification Cisco Endpoint Security">
+                    <div class="card-body">
+                        <h5 class="card-title text-primary">🎓 Cisco Networking Academy — Endpoint Security</h5>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 11 : Network Defense -->
+            <div class="col-md-6">
+                <div class="card h-100 shadow-sm border-secondary-subtle">
+                    <img src="images/Cisco_Network_Defense.png" class="card-img-top" alt="Certification Cisco Network Defense">
+                    <div class="card-body">
+                        <h5 class="card-title text-primary">🎓 Cisco Networking Academy — Network Defense</h5>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 20 : Ethical Hacker -->
+            <div class="col-md-6">
+                <div class="card h-100 shadow-sm border-secondary-subtle">
+                    <img src="images/Cisco_HackerEtique.png" class="card-img-top" alt="Certification Cisco Ethical Hacker">
+                    <div class="card-body">
+                        <h5 class="card-title text-primary">🎓 Cisco Networking Academy — Ethical Hacker</h5>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 99 : CNIL RGPD -->
+            <div class="col-md-6">
+                <div class="card h-100 shadow-sm border-secondary-subtle">
+                    <img src="images/CNIL_RGPD_Récap_Validat°_.png" class="card-img-top" alt="Récapitulatif de validation CNIL RGPD">
+                    <div class="card-body">
+                        <h5 class="card-title text-primary">🎓 CNIL — RGPD (récapitulatif de validation)</h5>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
-
-    <section id="contact">
-        <h2 class="mb-1">Contact</h2>
-
-        <p class="mb-5">
-            Vous pouvez me contacter directement via le formulaire ci-dessous.<br>
-            Ouvert à toute proposition de collaboration sur la région lyonnaise ou à distance.
-        </p>
-
-        <form action="https://api.web3forms.com/submit" method="POST">
-            <input type="hidden" name="access_key" value="deb71d30-b1c9-431b-abc2-14063c4bce34">
-
-            <div class="mb-3">
-                <label class="form-label">Nom</label>
-                <input type="text" name="name" class="form-control" required>
-            </div>
-
-            <div class="mb-3">
-                <label class="form-label">Email</label>
-                <input type="email" name="email" class="form-control" required>
-            </div>
-
-            <div class="mb-3">
-                <label class="form-label">Message</label>
-                <textarea name="message" class="form-control" rows="5" required></textarea>
-            </div>
-
-            <button type="submit" class="btn btn-primary">Envoyer</button>
-        </form>
-    </section>
-
-</div>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-<script src="js/script.js"></script>
-
-</body>
-</html>
