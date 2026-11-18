@@ -3,10 +3,95 @@ Profil CTF
 
 
 Cracking	Inforensique		Web		OSINT		Exploitation de services	Stéganographie
-
 https://cyberini.com/profil-ctf/?j=zz
 
+Skill matrix			Entry level / Junior / Mid Level / Senior
+Foundational	Security	 Analyst		Penetration 	Tester	Security 	Engineer
+Pentest    Blue Team    Forensic    Malware    Cryptographie    OSINT    CTF  Cybersécurité
 https://tryhackme.com/p/zanzack69?cardVersion=38e14d284499
 
+
+
+
+
+____________________________________________________________________________________________
+____________________________________________________________________________________________
+
+Sites & url ou je peux trouver des challenges du plus simple à un peu moins simple ...
+
+
+1. Débutant – prise en main		
+
+1. TryHackMe					https://tryhackme.com/ 
+Débutant
+Guidé
+Rooms guidées avec explications et exercices pratiques. Cherche les thèmes Digital Forensics, Windows Forensics et Network Traffic Analysis.
+
+
+
+2. Blue Team Labs Online		https://blueteamlabs.online/ 
+Débutant à intermédiaire
+Challenges d'investigation : fichiers, logs, PCAP, analyse de postes et incidents.
+
+
+3. CyberDefenders			https://cyberdefenders.org/blueteam-ctf-challenges/ 
+Débutant à intermédiaire
+Très intéressant pour travailler sur de véritables artefacts : mémoire, disque, réseau, Windows et Linux. Difficulté filtrable
+
+4. LetsDefend				https://app.letsdefend.io/challenge 
+Débutant
+Investigation d'incidents, analyse de fichiers suspects, logs, phishing et malware.
+
+
+
+
+2. Intermédiaire – investigation réelle
+
+5. Digital Corpora			https://digitalcorpora.org/  
+Intermédiaire
+Images disque, captures mémoire, fichiers réseau et scénarios d'investigation.
+
+
+6. Malware-Traffic-Analysis.net		https://www.malware-traffic-analysis.net/ 
+Intermédiaire
+Fichiers PCAP à analyser avec Wireshark. Reconstituer les communications, identifier les machines compromises et comprendre les échanges réseau.
+
+
+7. DFIR Diva				https://training.dfirdiva.com/ 
+Tous niveaux
+Répertoire de formations et challenges gratuits ou abordables, notamment en informatique légale.
+
+
+
+3. Plus technique – quand tu seras à l'aise
+
+•	Hack The Box Sherlocks : Hack The Box — investigations DFIR plus poussées.
+https://www.hackthebox.com/ 
+
+•	DFIR.training : DFIR.training — ressources, outils et challenges.
+
+•	Honeynet Project : honeynet.org — challenges historiques et datasets.
+
+
+4. Les outils que tu vas rencontrer
+
+https://www.autopsy.com/ 
+
+https://www.wireshark.org/
+
+https://github.com/volatilityfoundation/volatility3? 
+
+https://ericzimmerman.github.io/ 
+
+----------------------
+
+Mon parcours conseillé
+Je commencerais dans cet ordre :
+1.	TryHackMe : comprendre les bases de l'inforensique.
+2.	Blue Team Labs Online : résoudre des challenges.
+3.	CyberDefenders : passer à des investigations plus réalistes.
+4.	Malware Traffic Analysis : travailler spécifiquement les captures réseau.
+Notre méthode pour les prochains challenges : je te laisse analyser les fichiers et exécuter les commandes dans ta VM Kali. Tu me transmets les résultats et nous progressons étape par étape, sans donner directement la solution.
+C'est le même principe que nos CrackMe, mais cette fois avec des preuves numériques à examiner.
 
 
