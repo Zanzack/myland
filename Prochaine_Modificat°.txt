@@ -6,7 +6,7 @@ Cracking	Inforensique		Web		OSINT		Exploitation de services	Stéganographie
 
 https://cyberini.com/profil-ctf/?j=zz
 
-
+https://tryhackme.com/p/zanzack69?cardVersion=38e14d284499
 
 
 
